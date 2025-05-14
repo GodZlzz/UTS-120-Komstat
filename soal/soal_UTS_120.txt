@@ -1,0 +1,39 @@
+UTS-120-Komstat
+Nama: Rafi King Akbar
+NIM: [isi sendiri]
+
+Petunjuk Umum:
+1. Waktu untuk mengerjakan maksimal 120 menit
+2. Mahasiswa dilarang bekerja sama dan menggunakan alat komunikasi
+
+----------------------------------------
+1. Buatlah function dengan menerapkan looping dan branching untuk menghitung:
+   - probability density function (pdf)
+   - cumulative distribution function (cdf)
+   dari distribusi Poisson berikut:
+   P(x; λ) = (e^(-λ) * λ^x) / x!, untuk x = 0, 1, 2, 3, ...
+   Kemudian hitung:
+   a. pdf untuk x = 3, λ = 10
+   b. cdf untuk x = 3, λ = 10
+
+----------------------------------------
+2. Diberikan tabel kontingensi berikut:
+             Status Kelulusan (Y)
+Metode Belajar |  Lulus | Tidak Lulus
+----------------------------------------
+Metode A       |   41   |     9
+Metode B       |   32   |     18
+
+Dengan menerapkan looping dan branching, buatlah function untuk menghitung:
+a. Tabel joint probability π_ij = P(X = i, Y = j)
+b. Tabel conditional probabilities:
+   - P(Y = j | X = i) = π_ij / π_i+
+   - P(X = i | Y = j) = π_ij / π_+j
+
+----------------------------------------
+3. Lakukan analisis data iris dengan membuat visualisasi data dan interpretasinya
+   untuk beberapa variabel berikut:
+   a. Petal length
+   b. Sepal length dan Petal length
+   c. Sepal length dan Species
+   d. Sepal length, Petal length, dan Species
