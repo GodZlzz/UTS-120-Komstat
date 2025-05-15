@@ -25,7 +25,4 @@ Untuk menjalankan script jawaban:
 
 1. Pastikan R atau RStudio sudah terpasang di perangkat kamu.
 2. Buka terminal atau RStudio.
-3. Jalankan perintah berikut:
-
-```r
-source("soal/UTS_120.R")
+3. Jalankan file yang terdapat di repository.
